@@ -52,10 +52,37 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmCadastroFisico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCadastroFisico.Designer.cs">
+      <DependentUpon>frmCadastroFisico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmConsultaFisico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConsultaFisico.Designer.cs">
+      <DependentUpon>frmConsultaFisico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSobre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSobre.Designer.cs">
+      <DependentUpon>frmSobre.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCadastroFisico.resx">
+      <DependentUpon>frmCadastroFisico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConsultaFisico.resx">
+      <DependentUpon>frmConsultaFisico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSobre.resx">
+      <DependentUpon>frmSobre.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
